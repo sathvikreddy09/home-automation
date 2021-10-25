@@ -1,0 +1,1 @@
+I face problems of using observer pattern. I want to implement feature in which when home owner remotely change any appliance, it should be notified to all members. So, I put list of all observers in my singleton class (Home) and when Home owner add new home member, I also add it into list of all observers and when home owner change anything, it notifies all observers
